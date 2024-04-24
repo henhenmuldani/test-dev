@@ -23,8 +23,7 @@ function addContact(event) {
 const addContactFormElement = document.getElementById("form-login");
 addContactFormElement.addEventListener("submit", addContact);
 
-document.getElementById("demo").innerHTML =
-  "Page location is " + window.location.href;
+document.getElementById("demo").innerHTML = "Page location is " + location.href;
 
 document.getElementById("mainBtn").addEventListener("click", redirectFunction);
 
