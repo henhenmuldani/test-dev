@@ -26,10 +26,8 @@ addContactFormElement.addEventListener("submit", addContact);
 document.getElementById("mainBtn").addEventListener("click", redirectFunction);
 
 function redirectFunction() {
-  window.location.href = "../index.html";
+  //window.location.href = "../index.html";
   // You can also use window.location.replace method
 
-  /*
-   * window.location.replace("https://www.example.com");
-   */
+  window.location.replace("https://test-dev-rose.vercel.app");
 }
