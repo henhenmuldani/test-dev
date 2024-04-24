@@ -29,6 +29,6 @@ function redirectFunction() {
   //window.location.href = "../index.html";
   // You can also use window.location.replace method
 
-  window.location.replace("https://test-dev-rose.vercel.app");
+  location.replace("https://test-dev-rose.vercel.app");
   return false;
 }
